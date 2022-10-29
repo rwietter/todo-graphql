@@ -1,0 +1,39 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
+
+.background {
+  background: no-repeat 100%
+    url("https://unsplash.com/photos/eNoeWZkO7Zc/download?force=true&w=1920");
+  background-size: cover;
+  object-fit: fill;
+  min-height: 100vh;
+  height: auto;
+}
+
+.form {
+  backdrop-filter: saturate(180%)  invert(5%) blur(10px); 
+}
